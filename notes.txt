@@ -18,11 +18,18 @@ THREADS
 Installation and setup
 ======================
 - npx create-next-app@latest .
-- npm install @clerk/nextjs @uploadthing/react mongoose svix uploadthing tailwindcss-animate
+- npm install @clerk/nextjs @uploadthing/react mongoose svix uploadthing tailwindcss-animate @clerk/themes
+- npx shadcn-ui@latest init
+- npx shadcn-ui@latest add form
+- npx shadcn-ui@latest add input
+- npx shadcn-ui@latest add textarea
+
+
 
 > clerk for authentication 
 > svix
 > uploadthing for uploading files
+> Shadcn - Beautifully designed components that you can copy and paste into your apps. Accessible. Customizable. Open Source.
 
 
 .env.local
@@ -52,6 +59,6 @@ References
 2.  https://gist.github.com/adrianhajdin/060e4c9d3d8d4274b7669e260dbbcc8e
 3.  https://tailwindcss.com/
 4.  https://nerdcave.com/tailwind-cheat-sheet
-5.  
-
-
+5.  https://ui.shadcn.com/
+6.  https://zod.dev/
+7.  https://docs.uploadthing.com/api-reference/react#generatereacthelpers
