@@ -25,3 +25,31 @@ Installation and setup
 > uploadthing for uploading files
 
 
+.env.local
+==========
+NEXT_PUBLIC_CLERK_PUBLISHABLE_KEY=
+----------------------------------
+pk_test_aGFwcH                  #
+ktc3RhcmZpc2gtNjcuY2xlcmsu      #
+YWNjb3VudHMuZGV2JA              #
+----------------------------------
+
+CLERK_SECRET_KEY=
+----------------------------------
+sk_test_an3XLsdPCJgeHlNL        #
+UQB5RwSj9xyEM8qy3j7leTzviE      #
+----------------------------------
+
+NEXT_PUBLIC_CLERK_SIGN_IN_URL=/sign-in
+NEXT_PUBLIC_CLERK_SIGN_UP_URL=/sign-up
+NEXT_PUBLIC_CLERK_AFTER_SIGN_IN_URL=/onboarding
+NEXT_PUBLIC_CLERK_AFTER_SIGN_UP_URL=/
+
+
+References
+==========
+1.  https://clerk.com/docs/nextjs/get-started-with-nextjs
+2.  https://gist.github.com/adrianhajdin/060e4c9d3d8d4274b7669e260dbbcc8e
+3.  
+
+
