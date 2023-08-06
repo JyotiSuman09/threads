@@ -53,6 +53,13 @@ NEXT_PUBLIC_CLERK_AFTER_SIGN_IN_URL=/onboarding
 NEXT_PUBLIC_CLERK_AFTER_SIGN_UP_URL=/
 
 
+Future work
+===========
+1. Implement like functionality
+2. Implement repost functionality
+3. Implement share functionality
+
+
 References
 ==========
 1.  https://clerk.com/docs/nextjs/get-started-with-nextjs
