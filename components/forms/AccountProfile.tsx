@@ -12,7 +12,7 @@ import * as z from "zod";
 import Image from 'next/image';
 import { useForm } from 'react-hook-form';
 import { zodResolver } from '@hookform/resolvers/zod';
-import { userValidation } from '@/lib/validations/user';
+import { UserValidation } from '@/lib/validations/user';
 import { Button } from "@/components/ui/button";
 import { Input } from "@/components/ui/input";
 import { ChangeEvent, useState } from 'react';
@@ -42,7 +42,7 @@ const AccountProfile = ({ user, btnTitle }: Props) => {
     const pathname = usePathname();
 
     const form = useForm({
-        resolver: zodResolver(userValidation),
+        resolver: zodResolver(UserValidation),
         defaultValues: {
             profile_photo: user?.image || '',
             name: user?.name || '',
@@ -51,7 +51,7 @@ const AccountProfile = ({ user, btnTitle }: Props) => {
         }
     })
 
-    const onSubmit = async (values: z.infer<typeof userValidation
+    const onSubmit = async (values: z.infer<typeof UserValidation
     >) => {
         const blob = values.profile_photo;
 
