@@ -62,3 +62,4 @@ References
 5.  https://ui.shadcn.com/
 6.  https://zod.dev/
 7.  https://docs.uploadthing.com/api-reference/react#generatereacthelpers
+8.  https://uploadthing.com/
