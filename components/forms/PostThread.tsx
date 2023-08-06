@@ -10,7 +10,7 @@ import {
 } from "@/components/ui/form"
 import * as z from "zod";
 import { useForm } from 'react-hook-form';
-import { Textarea } from '../ui/textarea';
+import { Textarea } from '@/components/ui/textarea';
 import { Button } from "@/components/ui/button";
 import { zodResolver } from '@hookform/resolvers/zod';
 import { usePathname, useRouter } from "next/navigation";
