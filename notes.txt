@@ -18,11 +18,12 @@ THREADS
 Installation and setup
 ======================
 - npx create-next-app@latest .
-- npm install @clerk/nextjs @uploadthing/react mongoose svix uploadthing tailwindcss-animate @clerk/themes
+- npm install @clerk/nextjs @uploadthing/react mongoose svix uploadthing tailwindcss-animate @clerk/themes @radix-ui/react-tabs
 - npx shadcn-ui@latest init
 - npx shadcn-ui@latest add form
 - npx shadcn-ui@latest add input
 - npx shadcn-ui@latest add textarea
+- npx shadcn-ui@latest add tabs
 
 
 
@@ -52,12 +53,25 @@ NEXT_PUBLIC_CLERK_SIGN_UP_URL=/sign-up
 NEXT_PUBLIC_CLERK_AFTER_SIGN_IN_URL=/onboarding
 NEXT_PUBLIC_CLERK_AFTER_SIGN_UP_URL=/
 
+MONGODB_URL=mongodb://localhost:27017/threads
+MONGODB_URL_REMOTE=mongodb+srv://admin:1234@cluster0.ma2mjpy.mongodb.net/
+
+UPLOADTHING_SECRET=
+----------------------------------
+sk_live_2ef73bd07df4b094ad97    #
+2e1ffcecdc23f42a817f32efb580    #
+ec8122ed6624367a                #
+----------------------------------
+
+UPLOADTHING_APP_ID=w3fmrck9lo
+
 
 Future work
 ===========
 1. Implement like functionality
 2. Implement repost functionality
 3. Implement share functionality
+4. Implement redirect to /thread/{id} on clicking a threadCard
 
 
 References
