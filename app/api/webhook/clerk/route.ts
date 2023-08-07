@@ -76,7 +76,7 @@ export const POST = async (request: Request) => {
                 name,
                 slug,
                 logo_url || image_url,
-                "org bio",
+                `This is a community for people interested in ${name}`,
                 created_by
             );
 
