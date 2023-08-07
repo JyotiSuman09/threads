@@ -18,7 +18,6 @@ export async function fetchUser(userId: string) {
       model: Community,
     });
   } catch (error: any) {
-    console.error("Error fetching user:", error);
     throw new Error(`Failed to fetch user: ${error.message}`);
   }
 }
@@ -59,7 +58,6 @@ export async function updateUser({
       revalidatePath(path);
     }
   } catch (error: any) {
-    console.error("Error updating user :", error);
     throw new Error(`Failed to create/update user: ${error.message}`);
   }
 }
@@ -177,8 +175,8 @@ export async function getActivity(userId: string) {
     }).sort({ createdAt: 'desc' });
 
     return replies;
-  } catch (error: any) {
+  } catch (error) {
     console.error("Error fetching replies: ", error);
-    throw new Error(`Failed to fetch activity: ${error.message}`);
+    throw error;
   }
 }
