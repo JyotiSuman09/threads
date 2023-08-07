@@ -3,10 +3,10 @@
 [Live at](https://threads-self-alpha.vercel.app/)
 
 ## Home page
-![Home](/documents/home.png)
+![Home](https://i.ibb.co/Z1sqzhq/Screenshot-2023-08-07-205234.png)
 
 ## Profile page
-![Profile](/documents/profile.png)
+![Profile](https://i.ibb.co/KDC6GYg/Screenshot-2023-08-07-205305.png)
 
 ## Summary
 Develop a clone of Threads, Next.js 13 app. Threads skyrocketed to 100 million sign-ups in less than 5 days, and dethroned giants like Twitter, ChatGPT, and TikTok to become the fastest-growing app ever!
