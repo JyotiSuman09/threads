@@ -54,7 +54,8 @@ NEXT_PUBLIC_CLERK_AFTER_SIGN_IN_URL=/onboarding
 NEXT_PUBLIC_CLERK_AFTER_SIGN_UP_URL=/
 
 MONGODB_URL=mongodb://localhost:27017/threads
-MONGODB_URL_REMOTE=mongodb+srv://admin:1234@cluster0.ma2mjpy.mongodb.net/
+MONGODB_URL_REMOTE=mongodb+srv://admin:1234@clus
+ter0.ma2mjpy.mongodb.net/
 
 UPLOADTHING_SECRET=
 ----------------------------------
